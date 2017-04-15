@@ -33,12 +33,12 @@
 }
 
 // Кнопка
-@mixin button($padding-vertical, $padding-horizontal, $color, $background, $border: null, $border-radius) {
+@mixin button($padding-vertical, $padding-horizontal, $color, $background, $border-radius, $border: null) {
   padding: $padding-vertical $padding-horizontal;
   color: $color;
   background-color: $background;
-  border-color: $border;
   border-radius: $border-radius;
+  border-color: $border;
 }
 
 // Обрезка текста с многоточием
