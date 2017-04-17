@@ -112,7 +112,7 @@ function init(){
     let myMap;
 
     myMap = new ymaps.Map("yandex-map", {
-        center: [59.9362, 30.3211],
+        center: [59.93863106417265, 30.3230545],
         zoom: 16,
         controls: []
     });
@@ -120,10 +120,10 @@ function init(){
     myMap.behaviors.disable(["scrollZoom"]);
 
     myMap.controls.add("zoomControl", {
-        position: {bottom: 25, left: 15}
+        position: {bottom: 40, left: 15}
     });
 
-    let myPlacemark = new ymaps.Placemark([59.9365, 30.3208], {
+    let myPlacemark = new ymaps.Placemark([59.93865,30.3221], {
         hintContent: "PINK",
         balloonContent: "Приезжайте в гости"
     }, {
