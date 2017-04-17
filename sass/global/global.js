@@ -124,13 +124,14 @@ function init(){
     });
 
     let myPlacemark = new ymaps.Placemark([59.93865,30.3221], {
-        hintContent: "PINK",
+        hintContent: "Pink",
         balloonContent: "Приезжайте в гости"
     }, {
         iconLayout: "default#image",
         iconImageHref: "../img/icon-map-marker.svg",
         iconImageSize: [35, 35],
-        iconImageOffset: [0, 0]
+        iconImageOffset: [0, 0],
+        hideIconOnBalloonOpen: false
     });
 
     myMap.geoObjects.add(myPlacemark);
