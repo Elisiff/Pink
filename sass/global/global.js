@@ -128,7 +128,7 @@ function init(){
         balloonContent: "Приезжайте в гости"
     }, {
         iconLayout: "default#image",
-        iconImageHref: "img/icon-map-marker.svg",
+        iconImageHref: "../img/icon-map-marker.png",
         iconImageSize: [35, 35],
         iconImageOffset: [0, 0],
         hideIconOnBalloonOpen: false
