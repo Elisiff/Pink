@@ -53,7 +53,7 @@
   }
 }
 
-@media (min-width: 660px) {
+@media print, (min-width: 660px) {
   .page-header {
     background-image: url("../img/bg-back-tablet@1x.jpg");
     background-repeat: no-repeat;
@@ -104,7 +104,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media print, (min-width: 960px) {
   .page-header {
     background-image: url("../img/bg-back-desktop@1x.jpg");
     background-repeat: no-repeat;
@@ -143,6 +143,8 @@
       background-image: url("../img/iphone-hand-desktop@1x.png");
       background-position: bottom right;
       background-size: 1050px auto;
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
     }
   }
 

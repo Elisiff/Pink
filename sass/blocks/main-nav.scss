@@ -2,6 +2,8 @@
   position: relative;
   z-index: 10;
   background-color: rgba(0,0,0,0.3);
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
 }
 
 .main-nav__opener {
@@ -231,7 +233,7 @@
   }
 }
 
-@media (min-width: 660px) {
+@media print, (min-width: 660px) {
   .main-nav__opener {
     max-width: 660px;
     padding: 27px 20px 39px 20px;
@@ -260,7 +262,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media print, (min-width: 960px) {
   .main-nav__container {
     display: flex;
     box-sizing: border-box;

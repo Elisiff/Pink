@@ -46,7 +46,7 @@
   }
 }
 
-@media (min-width: 660px) {
+@media print, (min-width: 660px) {
   .contacts-list {
     max-width: 620px;
     display: flex;
@@ -77,7 +77,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media print, (min-width: 960px) {
   .contacts-list {
     max-width: 940px;
     padding-left: 10px;

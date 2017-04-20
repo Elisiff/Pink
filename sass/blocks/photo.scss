@@ -22,7 +22,7 @@
   background-color: $bg-pink;
 }
 
-@media (min-width: 660px) {
+@media print, (min-width: 660px) {
   .photo {
     max-width: 620px;
   }
@@ -38,7 +38,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media print, (min-width: 960px) {
   .photo {
     max-width: 940px;
     padding: 0 10px;

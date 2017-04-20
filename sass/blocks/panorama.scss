@@ -9,7 +9,7 @@
   }
 }
 
-@media (min-width: 660px) {
+@media print, (min-width: 660px) {
   .panorama {
 
     img {
@@ -18,7 +18,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media print, (min-width: 960px) {
   .panorama {
 
     img {

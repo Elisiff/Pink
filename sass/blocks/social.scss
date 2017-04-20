@@ -17,6 +17,8 @@
     background-image: url("../img/icon-twitter.svg");
     background-repeat: no-repeat;
     background-position: center center;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
 
     &:active {
       background-image: url("../img/icon-twitter-a.svg");
@@ -27,6 +29,8 @@
     background-image: url("../img/icon-facebook.svg");
     background-repeat: no-repeat;
     background-position: center center;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
 
     &:active {
       background-image: url("../img/icon-facebook-a.svg");
@@ -37,6 +41,8 @@
     background-image: url("../img/icon-youtube.svg");
     background-repeat: no-repeat;
     background-position: 18px center;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
 
     &:active {
       background-image: url("../img/icon-youtube-a.svg");
@@ -52,14 +58,14 @@
   }
 }
 
-@media (min-width: 660px) {
+@media print, (min-width: 660px) {
   .social {
     margin-top: 40px;
     margin-left: 23px;
   }
 }
 
-@media (min-width: 960px) {
+@media print, (min-width: 960px) {
   .social {
     margin-top: 74px;
     margin-left: 23px;

@@ -352,7 +352,7 @@
   display: none;
 }
 
-@media (min-width: 660px) {
+@media print, (min-width: 660px) {
   .journey-form {
     display: flex;
     flex-wrap: wrap;
@@ -685,7 +685,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media print, (min-width: 960px) {
   .journey-form {
     min-width: 960px;
     width: 960px;

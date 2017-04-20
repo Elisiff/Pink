@@ -10,7 +10,7 @@ br {
   display: none;
 }
 
-@media (min-width: 660px) {
+@media print, (min-width: 660px) {
   .page-title {
     max-width: 620px;
     padding: 179px 20px 0 20px;
@@ -18,7 +18,7 @@ br {
   }
 }
 
-@media (min-width: 960px) {
+@media print, (min-width: 960px) {
   .page-title {
     max-width: 960px;
     padding: 174px 20px 0 20px;

@@ -89,7 +89,7 @@
   @include text($open, 14px, 24px, $text-gray);
 }
 
-@media (min-width: 660px) {
+@media print, (min-width: 660px) {
   .advantages__decription-container {
     padding-top: 51px;
     padding-left: 20px;
@@ -154,7 +154,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media print, (min-width: 960px) {
   .advantages__decription-container {
     padding-top: 67px;
     padding-left: 10px;

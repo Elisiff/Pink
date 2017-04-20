@@ -2,7 +2,7 @@
   display: none;
 }
 
-@media (min-width: 660px) {
+@media print, (min-width: 660px) {
   .effect {
     display: block;
   }
@@ -68,7 +68,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media print, (min-width: 960px) {
   .effect {
     display: block;
     background-color: $bg-gray;

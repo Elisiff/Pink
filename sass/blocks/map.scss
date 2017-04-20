@@ -40,7 +40,7 @@
   background-size: 36px 35px;
 }
 
-@media (min-width: 660px) {
+@media print, (min-width: 660px) {
   .map {
     position: relative;
     width: 100%;
@@ -68,7 +68,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media print, (min-width: 960px) {
   .map {
     position: relative;
     width: 100%;
@@ -88,6 +88,8 @@
   @media (min-resolution: 144dpi), (min-resolution: 1.5dppx) {
     .map {
       background-image: url("../img/bg-map-desktop@2x.jpg");
+      -webkit-print-color-adjust: exact;
+      print-color-adjust: exact;
     }
   }
 

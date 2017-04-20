@@ -1,5 +1,7 @@
 .image-tool {
   background-color: $bg-gray;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
 }
 
 .image-tool__container {
@@ -167,7 +169,7 @@
   }
 }
 
-@media (min-width: 660px) {
+@media print, (min-width: 660px) {
   .image-tool__container {
     display: flex;
     justify-content: space-between;
@@ -297,7 +299,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media print, (min-width: 960px) {
   .image-tool {
     min-width: 960px;
     margin: 0 auto;

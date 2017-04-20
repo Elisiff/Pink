@@ -60,7 +60,7 @@
   }
 }
 
-@media (min-width: 660px) {
+@media print, (min-width: 660px) {
   .popup-success {
     left: 100px;
     width: 460px;
@@ -85,7 +85,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media print, (min-width: 960px) {
   .popup-success {
     left: 90px;
     width: 780px;

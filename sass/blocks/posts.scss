@@ -18,7 +18,7 @@
   }
 }
 
-@media (min-width: 660px) {
+@media print, (min-width: 660px) {
   .posts {
     max-width: 620px;
     padding-bottom: 68px;
@@ -39,7 +39,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media print, (min-width: 960px) {
   .posts {
     max-width: 940px;
     padding: 0 10px 65px 10px;

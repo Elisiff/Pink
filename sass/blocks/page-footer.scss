@@ -62,7 +62,7 @@
   }
 }
 
-@media (min-width: 660px) {
+@media print, (min-width: 660px) {
   .page-footer {
     display: flex;
     max-width: 620px;
@@ -91,7 +91,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media print, (min-width: 960px) {
   .page-footer {
     display: flex;
     justify-content: space-between;

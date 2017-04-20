@@ -14,6 +14,8 @@
   margin-top: -20px;
   padding: 20px 8px 21px 16px;
   background-color: $bg-gray;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
 }
 
 .post-item--panorama .post-item__description {
@@ -58,7 +60,7 @@
   }
 }
 
-@media (min-width: 660px) {
+@media print, (min-width: 660px) {
   .post-item {
     display: flex;
     flex-wrap: wrap;
@@ -144,7 +146,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media print, (min-width: 960px) {
   .post-item {
     margin-bottom: 54px;
 

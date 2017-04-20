@@ -1,6 +1,8 @@
 .price-list {
   position: relative;
   background-color: $bg-gray;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
 
   &::before {
     content: "";
@@ -49,6 +51,8 @@
   background-color: $bg-nav;
   border-right: 2px solid $table-b;
   border-left: 2px solid $table-b;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
 }
 
 .price-list__package-title {
@@ -160,7 +164,7 @@
   box-shadow: 0 0 0 3px $bg-nav;
 }
 
-@media (min-width: 660px) {
+@media print, (min-width: 660px) {
   .price-list {
     min-width: 660px;
 
@@ -286,7 +290,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media print, (min-width: 960px) {
   .price-list {
 
     &::before {

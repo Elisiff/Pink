@@ -73,7 +73,7 @@
   text-align: center;
 }
 
-@media (min-width: 660px) {
+@media print, (min-width: 660px) {
   .download {
     max-width: 300px;
     padding: 2px 20px 2px 20px;
@@ -99,7 +99,7 @@
   }
 }
 
-@media (min-width: 960px) {
+@media print, (min-width: 960px) {
   .download {
     padding: 0 20px;
     transform: translate(-321px, 216px);
